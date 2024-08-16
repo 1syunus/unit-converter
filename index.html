@@ -1,8 +1,32 @@
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <div class="hero">
+            <h1>Imperial-Metric Unit Conversion</h1>
+            <input id="input-value"> 
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="conversion-sets">
+            <h2>Length (Feet/Meters)</h2>
+            <p id="converted-feet"></p>
+        </div>
+        <div class="conversion-sets">
+            <h2>Volume (Gallons/Liters)</h2>          
+            <p id="converted-gallon"></p>
+        </div>
+        <div class="conversion-sets">
+            <h2>Weight (Pounds/Kilograms)</h2>
+            <p id="converted-pound"></p>
+        </div>
+            
         <script src="index.js"></script>
     </body>
 </html>
